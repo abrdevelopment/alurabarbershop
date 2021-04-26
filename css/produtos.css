@@ -1,0 +1,218 @@
+@media screen and (min-width: 280px) and (max-width: 767px){
+    .produtos__flex {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 3rem;
+        text-align: center;
+    }
+    
+    .produtos__borda {
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    
+    .produtos__container {
+        background-color: #000;
+    }
+    
+    .produtos__card {
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .produtos__texto {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        padding: .3rem;
+        text-align: center;
+    }
+    
+    .produtos__titulo {
+        color: #FFF;
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .produtos__imagem {
+        border-radius: 15px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .produtos__video {
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    
+    .produtos__video::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+    
+    .produtos__video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .produtos__flex {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .produtos__borda {
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .produtos__container {
+        background-color: #000;
+    }
+
+    .produtos__card {
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .produtos__texto {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: .3rem;
+        text-align: center;
+    }
+
+    .produtos__titulo {
+        color: #FFF;
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .produtos__imagem {
+        border-radius: 15px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .produtos__video {
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .produtos__video::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .produtos__video iframe {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        bottom: 5%;
+        width: 90%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {
+    .produtos__flex {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .produtos__borda {
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .produtos__container {
+        background-color: #000;
+    }
+
+    .produtos__card {
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .produtos__texto {
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.9rem;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .produtos__titulo {
+        color: #FFF;
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .produtos__imagem {
+        border-radius: 15px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .produtos__video {
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .produtos__video::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .produtos__video iframe {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        bottom: 5%;
+        width: 90%;
+        height: 100%;
+    }
+}

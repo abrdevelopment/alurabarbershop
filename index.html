@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/produtos.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <title>Barbershop | Alura</title>
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <nav class="menu__principal">
+                <ul class="menu__principal">
+                    <li><img class="menu__logo" src="./img/logo-branco.png" alt=""></li>
+                    <li class="menu__item"><a class="menu__link" href="#home">.home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#sobre">.sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#produtos">.produtos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contato">.contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section>
+        <div class="menu__container">
+            <img class="menu__imagem" src="./img/barber.jfif" alt="">
+            <div class="menu__titulo">
+                <h1>Alura Barbershop</h1>
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="sobre__container">
+            <img class="sobre__logo" src="./img/sobre.jpg" alt="">
+            <div class="sobre__titulo">
+                <h2>Sobre a Alura Barbershop</h2>
+            </div>
+            <div class="sobre__texto">
+                <p>Localizada no coração da cidade a <strong>Alura Barbershop</strong> traz
+                    para o mercado o que há de melhor para o seu cabelo e barba.<br><br>
+                    Fundada em 2019, a Alura Barbershop já é destaque na cidade e conquista novos clientes a cada
+                    dia.<br><br>
+
+                    Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+                        clientes".</strong><br><br>
+
+                    Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.<br><br>
+                    O atendimento possui padrão de excelência e agilidade, garantindo qualidade e
+                    satisfação dos nossos clientes.</p><br><br>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="produtos__container produtos__titulo">
+            <h2>Produtos</h2><br>
+        </div>
+
+        <div class="produtos__flex">
+                <div class="produtos__borda">
+                    <strong><h3 class="produtos__texto">Cabelo</h3></strong>
+                    <img class="produtos__imagem" src="./img/cabelo_pb.jpg" alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Corte como o cliente quiser</p>
+                    <strong><p class="produtos__texto">R$25.00</p></strong>
+                </div>
+
+                <div class="produtos__borda">
+                    <strong><h3 class="produtos__texto">Barba</h3></strong>
+                    <img class="produtos__imagem" src="./img/barba_pb.jpg" alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Corte e desenho profissional</p>
+                    <strong><p class="produtos__texto">R$18.00</p></strong>
+                </div>
+
+                <div class="produtos__borda">
+                    <strong><h3 class="produtos__texto">Cabelo + Barba</h3></strong>
+                    <img class="produtos__imagem" src="./img/cabelo+barba_pb.jpg"
+                        alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Pacote com cabelo e barba</p>
+                    <strong><p class="produtos__texto">R$35.00</p></strong>
+                </div>
+        </div>
+        <!--
+        <div class="produtos__container">
+            <div>
+                <div class="produtos__card">
+                    <strong><h3 class="produtos__texto">Cabelo</h3></strong>
+                    <img class="produtos__imagem" src="./img/cabelo_pb.jpg" alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Cortes como o cliente quiser</p>
+                    <strong><p class="produtos__texto">R$25.00</p></strong>
+                </div>
+            </div>
+
+            <div>
+                <div class="produtos__card">
+                    <strong><h3 class="produtos__texto">Barba</h3></strong>
+                    <img class="produtos__imagem" src="./img/barba_pb.jpg" alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Corte e desenho profissional</p>
+                    <strong><p class="produtos__texto">R$18.00</p></strong>
+                </div>
+            </div>
+            <div>
+                <div class="produtos__card">
+                    <strong><h3 class="produtos__texto">Cabelo + Barba</h3></strong>
+                    <img class="produtos__imagem" src="./img/cabelo+barba_pb.jpg"
+                        alt="Detalhes sobre corte de cabelo">
+                    <p class="produtos__texto">Pacote completo de cabelo e barba</p>
+                    <strong><p class="produtos__texto">R$35.00</p></strong>
+                </div>
+            </div>
+            <div class="produtos__card produtos__video">
+                <iframe width="315" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>-->
+    </section>
+    <section>
+        <div class="produtos__video">
+            <iframe src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <div>
+            <h2 class="contato__titulo">Contato</h2>
+        </div>
+        <div>
+            <form class="contato__formulario">
+                <label class="contato__campos" for="nome">Nome e sobrenome:</label>
+                <input class="contato__campos" id="nome" type="text" placeholder="José da Silva" required>
+                <label class="contato__campos" for="email">Email:</label>
+                <input class="contato__campos" id="email" type="email" placeholder="email@dominio.com" required>
+                <label class="contato__campos" for="telefone">Telefone:</label>
+                <input class="contato__campos" type="tel" id="telefone" type="tel" placeholder="(11)9999-9999" required>
+                <label class="contato__campos" for="mensagem">Mensagem:</label>
+                <textarea class="contato__campos" id="mensagem" cols="22" rows="10" placeholder="Deixe sua mensagem" required></textarea>
+                <input type="submit" value="Enviar" class="contato__campos contato__botao">
+            </form>
+        </div>
+        <div>
+            <h2 class="contato__titulo">Localização</h2>
+        </div>
+        <div class="contato__localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.112563116341!2d-46.65084550862938!3d-23.576410338195497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1618939348463!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodape__titulo">Segue aê</div>
+        <div class="rodape__container">
+            <a href="https://www.facebook.com/AluraCursosOnline" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/aluraonline" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/aluraonline" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCo7EHzKF2zDFWszw7Dg4mPw" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="rodape__copyright">&copy;Copyright Alura Barbershop 2021</div>
+        <div class="rodape__copyright2">Made with ♥ by abrdev</div>
+    </footer>
+
+</body>
+
+</html>

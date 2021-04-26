@@ -1,0 +1,136 @@
+@media screen and (min-width: 280px) and (max-width: 767px){
+    .contato__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+    .contato__botao {
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contato__campos {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: .3rem;
+        margin-bottom: .5rem;
+    }
+
+    .contato__titulo {
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .contato__localizacao {
+        text-align: center;
+        margin: 2rem 0;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .contato__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10%;
+        width: 80%;
+        height: 80%;
+    }
+
+    .contato__botao {
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contato__campos {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: .3rem;
+        margin-bottom: .5rem;
+    }
+
+    .contato__titulo {
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .contato__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato__localizacao {
+        margin: 2rem 0;
+        padding: 0 4rem;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {
+    .contato__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15%;
+        width: 70%;
+        height: 70%;
+    }
+
+    .contato__botao {
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contato__botao:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+    .contato__campos {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: .3rem;
+        margin-bottom: .5rem;
+    }
+
+    .contato__titulo {
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .contato__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato__localizacao {
+        margin: 2rem 0;
+        padding: 0 4rem;
+        text-align: center;
+    }
+}
